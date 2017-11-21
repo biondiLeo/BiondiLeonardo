@@ -1,3 +1,8 @@
+/**
+@author leonardo biondi
+@version 1.0.0
+@date 20/11/2017
+*/
 #include<iostream>
 using namespace std;
 
