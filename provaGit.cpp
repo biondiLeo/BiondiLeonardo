@@ -11,10 +11,12 @@ La funzione incrementa e stampa una variabile contatore
 @param int c --> contatore
 @return la stampa dei valori fino a 10 del contatore
 */
-void incrementa(int c)
+void incrementa_stampa(int c)
 {
+	int nStampa = 0;
 	for (int i = 0; i < 10; i++) {
-		cout << "contatore: " << c << endl;
+		cout << "Stampa "<<nStampa<<"° della variabile contatore: "<< c << endl;
+		nStampa++;
 		c++;
 	}
 }
@@ -24,7 +26,7 @@ Main dove viene richiamata la funzione incrementa()
 */
 void main()
 {
-	int c = 0;
-	incrementa(c);
+	int c = 1;
+	incrementa_stampa(c);
 	system("pause");
 }
