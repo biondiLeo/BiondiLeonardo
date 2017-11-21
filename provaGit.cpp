@@ -13,7 +13,7 @@ La funzione incrementa e stampa una variabile contatore
 */
 void incrementa_stampa(int c)
 {
-	int nStampa = 0;
+	int nStampa = 1;
 	for (int i = 0; i < 10; i++) {
 		cout << "Stampa "<<nStampa<<"° della variabile contatore: "<< c << endl;
 		nStampa++;
